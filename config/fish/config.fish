@@ -19,6 +19,6 @@ if status is-interactive
     # Start Tmux
     if status is-interactive
     and not set -q TMUX
-        exec tmux attach
+        exec tmux new-session -A -s main
     end
 end
