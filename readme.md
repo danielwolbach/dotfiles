@@ -33,4 +33,8 @@ dotfiles/install.sh
 | [Helix](https://helix-editor.com/)                          | Text Editor           |
 | [Exa](https://the.exa.website/)                             | File Lister           |
 | [Bat](https://github.com/sharkdp/bat)                       | File Viewer           |
-| [Baocn](https://github.com/Canop/bacon)                     | Code Checker          |
+| [TLDR](https://tldr.sh/)                                    | Manual Pages          |
+| [Baocn](https://github.com/Canop/bacon)                     | Rust Code Checker     |
+| [GitUI](https://github.com/extrawurst/gitui)                | Terminal-UI for Git   |
+| [RipGrep](https://github.com/BurntSushi/ripgrep)            | RegEx Pattern Search  |
+| [Fd](https://github.com/sharkdp/fd)                         | File Search           |
