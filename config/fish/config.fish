@@ -4,6 +4,7 @@ if status is-interactive
 
     # Set variables
     set fish_greeting
+    set -gx SHELL (which fish)
     set -gx COLORTERM "truecolor"
     set -gx EDITOR "helix"
     set -gx MANPAGER "sh -c 'col -bx | bat -l man -p'"
