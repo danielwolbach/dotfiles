@@ -11,6 +11,8 @@
     ~/.config:
       path: config/**
       glob: true
+    ~/.bashrc: home/bashrc.sh
+    ~/.inputrc: home/inputrc.sh
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
