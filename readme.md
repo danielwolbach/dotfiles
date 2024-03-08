@@ -33,7 +33,7 @@ dotfiles/install.sh
 | [Eza](https://eza.rocks/)                                   | File Lister           |
 | [Bat](https://github.com/sharkdp/bat)                       | File Viewer           |
 | [TLDR](https://tldr.sh/)                                    | Manual Pages          |
-| [Baocn](https://github.com/Canop/bacon)                     | Rust Code Checker     |
+| [Bacon](https://github.com/Canop/bacon)                     | Rust Code Checker     |
 | [GitUI](https://github.com/extrawurst/gitui)                | Git Frontend          |
 | [RipGrep](https://github.com/BurntSushi/ripgrep)            | RegEx Pattern Search  |
 | [Fd](https://github.com/sharkdp/fd)                         | File Search           |
