@@ -1,0 +1,48 @@
+[[language]]
+name = "json"
+auto-format = true
+formatter = { command = 'prettier', args = ["--parser", "json"] }
+
+[[language]]
+name = "yaml"
+auto-format = true
+formatter = { command = 'prettier', args = ["--parser", "yaml"] }
+
+[[language]]
+name = "markdown"
+auto-format = true
+formatter = { command = 'prettier', args = ["--parser", "markdown"] }
+
+[[language]]
+name = "html"
+auto-format = true
+language-servers = [ "vscode-html-language-server", "tailwindcss-ls" ]
+formatter = { command = 'prettier', args = ["--parser", "html"] }
+
+[[language]]
+name = "css"
+auto-format = true
+language-servers = [ "vscode-css-language-server", "tailwindcss-ls" ]
+formatter = { command = 'prettier', args = ["--parser", "css"] }
+
+[[language]]
+name = "javascript"
+auto-format = true
+formatter = { command = 'prettier', args = ["--parser", "typescript"] }
+
+[[language]]
+name = "jsx"
+auto-format = true
+language-servers = [ "typescript-language-server", "tailwindcss-ls" ]
+formatter = { command = 'prettier', args = ["--parser", "typescript"] }
+
+[[language]]
+name = "typescript"
+auto-format = true
+formatter = { command = 'prettier', args = ["--parser", "typescript"] }
+
+[[language]]
+name = "tsx"
+auto-format = true
+language-servers = [ "typescript-language-server", "tailwindcss-ls" ]
+formatter = { command = 'prettier', args = ["--parser", "typescript"] }
