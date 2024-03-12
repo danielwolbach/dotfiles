@@ -1,17 +1,1 @@
-[export]
-enabled = false
-path = ".bacon-locations"
-line_format = "{kind} {path}:{line}:{column} {message}"
-
-[keybindings]
-esc = "back"
-g = "scroll-to-top"
-shift-g = "scroll-to-bottom"
-k = "scroll-lines(-1)"
-j = "scroll-lines(1)"
-Home = "scroll-to-top"
-End = "scroll-to-bottom"
-Up = "scroll-lines(-1)"
-Down = "scroll-lines(1)"
-PageUp = "scroll-pages(-1)"
-PageDown = "scroll-pages(1)"
+wrap = false
