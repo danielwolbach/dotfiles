@@ -15,4 +15,5 @@
     ~/.inputrc: home/inputrc.sh
 
 - shell:
-  - [git submodule update --init --recursive, Installing submodules]
+  - [git submodule update --init --recursive, Installing Dotbot submodule]
+  - [git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm, Installing Tmux Plugin Manger]
