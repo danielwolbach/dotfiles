@@ -1,6 +1,6 @@
 if status is-interactive
     if not set -q TMUX
-        set -gx SHELL "/usr/bin/fish"
+        set -lx SHELL "/usr/bin/fish"
         exec tmux new-session -A -s main
     end
 

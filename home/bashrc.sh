@@ -4,19 +4,20 @@ fi
 
 if [[ $- == *i* ]]
 then
-    if [ -z "$TMUX" ]; then
-        exec tmux new-session -A -s main
-    fi
-
     export PATH="$PATH:~/.local/bin"
     export PATH="$PATH:~/.cargo/bin"
-
     export EDITOR="hx"
+
     export VISUAL="hx"
     export MANPAGER="sh -c 'col -bx | bat -l man -p'"
     export MANROFFOPT="-c"
+    export HISTCONTROL="ignoreboth:erasedups"
 
     export PS1="[\W]$ "
+
+    bind "set show-all-if-ambiguous on"
+    bind "TAB:menu-complete"
+    bind "\"\e[Z\":menu-complete-backward"
 
     alias ls="eza --icons"
     alias ll="eza --icons --long --header --git"

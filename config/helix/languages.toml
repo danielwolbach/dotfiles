@@ -11,7 +11,7 @@ formatter = { command = 'prettier', args = ["--parser", "yaml"] }
 [[language]]
 name = "markdown"
 auto-format = true
-formatter = { command = 'prettier', args = ["--parser", "markdown"] }
+formatter = { command = 'prettier', args = ["--parser", "markdown", "--prose-wrap", "always", "--print-width", "80"] }
 
 [[language]]
 name = "html"
