@@ -1,0 +1,4 @@
+[general]
+command = ["fish"]
+font = "MonaspiceNe Nerd Font Regular"
+theme = "catppuccin_mocha"
