@@ -46,3 +46,8 @@ name = "tsx"
 auto-format = true
 language-servers = [ "typescript-language-server", "tailwindcss-ls" ]
 formatter = { command = 'prettier', args = ["--parser", "typescript"] }
+
+[[language]]
+name = "cpp"
+auto-format = true
+formatter = { command = "clang-format", args = ["--style=file"]}
